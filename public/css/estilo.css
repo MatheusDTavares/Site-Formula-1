@@ -106,17 +106,11 @@ body {
   background-color: #000;
   display: flex;
   color: white;
+  height: 20px;
 }
 
 .social .container {
   justify-content: center;
-}
-
-.box img {
-  width: 200px;
-  height: 150px;
-  gap: 20px;
-  
 }
 
 .social .container .boxes {
@@ -132,11 +126,7 @@ body {
   text-align: center;
 }
 
-.box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+
 
 /* FOOTER */
 
@@ -401,3 +391,68 @@ a{
     background-color: yellow; /* Cor de destaque */
     color: black; /* Cor do texto */
 }
+
+
+.secao {
+  width: 70%;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+}
+
+.secao p{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+
+/* Cada linha */
+.item {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 80px auto;
+  padding-left: 40px;
+}
+
+/* Alternar lado */
+.item.reverse {
+  flex-direction: row-reverse;
+  padding-right: 40px;
+}
+
+/* Imagem */
+.item img {
+  width: 400px;
+  border-radius: 10px;
+  transition: 0.3s;
+  height: 270px;
+}
+
+/* Hover bonito */
+.item img:hover {
+  transform: scale(1.05);
+}
+
+/* Texto */
+.text {
+  max-width: 400px;
+}
+
+.text h4 {
+  color: #FF1801;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.text p {
+  font-size: 16px;
+}
+
+
+
+
+
