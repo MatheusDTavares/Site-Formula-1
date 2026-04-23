@@ -11,7 +11,6 @@ body {
 :root {
   --tamanho-header: 80px;
   --tudu: 100vh;
-  /*--tamanho-banner: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);*/
   --tamanho-simulador: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
   --tamanho-login: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
   --tamanho-footer: 65px;
@@ -26,6 +25,15 @@ body {
 .header {
   height: var(--tamanho-header);
   border-bottom: 2px solid #FF1801;
+  position: sticky;
+  top: 0px;
+  background-color: #15151e;
+  z-index: 999;
+}
+
+.header img{
+  width: 150px;
+  height: 85px;
 }
 
 .header .container {
@@ -76,7 +84,7 @@ body {
   inset: 0; /* equivale a top/right/bottom/left: 0 */
   background-image: url('../assets/imgs/3FW3RPDGNVAAHFDBUZ7TKTPPWQ.avif');
   background-size: cover;
-  opacity: 0.45;
+  opacity: 0.35;
   z-index: 0;
 }
 
@@ -103,10 +111,10 @@ body {
 /* MISSÃO VISÃO VALORES */
 
 .social {
-  background-color: #000;
+  background-color: #FF1801;
   display: flex;
   color: white;
-  height: 20px;
+  height: 2px;
 }
 
 .social .container {
@@ -394,7 +402,7 @@ a{
 
 
 .secao {
-  width: 70%;
+  
   margin: 80px auto;
   display: flex;
   flex-direction: column;
@@ -451,6 +459,50 @@ a{
 .text p {
   font-size: 16px;
 }
+
+.f1 {
+  color: white;
+  padding: 80px 80px;
+  display: flex;
+  
+  
+}
+
+.f1 img{
+  width: 750px;
+  height: 650px;
+  border-radius: 10px;
+  
+}
+.f1 .container {
+  flex-direction: column;
+  gap: 30px;
+}
+
+.f1 h2 {
+  color: #FF1801;
+  font-size: 28px;
+}
+
+.f1 p {
+  font-size: 18px;
+  line-height: 1.6;
+  max-width: 800px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
