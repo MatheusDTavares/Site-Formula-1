@@ -13,7 +13,7 @@ body {
   --tudu: 100vh;
   --tamanho-simulador: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
   --tamanho-login: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
-  --tamanho-footer: 65px;
+  --tamanho-footer: 45px;
 }
 
 .container {
@@ -40,15 +40,33 @@ body {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  padding: 10px;
 }
 
 .header a {
   text-decoration: none;
-  color: #FF1801;
+    color: white;
+    font-weight: normal;
 }
 
-.agora {
+a{
+  color: white;
+}
+
+
+button{
+  width: fit-content;
+  height: 25px;
+  border-radius: 25px;
+  
+  
+}
+
+
+li {
   font-weight: 800;
+  color: white
+
 }
 
 .navbar {
@@ -58,6 +76,16 @@ body {
   justify-content: space-between;
   list-style: none;
   color: #FF1801;
+  
+  
+}
+.botao1{
+  background-color: black;
+  color: white;
+}
+.botao2{
+  background-color: red;
+  color: white;
 }
 
 .titulo {
@@ -67,7 +95,8 @@ body {
 }
 
 .header h1 {
-  margin: 0;
+  margin: 0px;
+ 
 }
 
 /* BANNER */
@@ -155,175 +184,17 @@ body {
   font-size: 12px;
 }
 
-/* LOGIN */
 
-.login {
-  height: var(--tamanho-login);
-  background-image: url('../assets/imgs/jean-alesi-foi-o-último-a-usar-a-ferrari-27-em-95.avif');
-  background-size: cover;
-}
 
-.login .container {
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
 
-.card {
-  width: 50%;
-  background-color: #e5e5e5;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  color: palevioletred;
-  flex-direction: column;
-  height: fit-content;
-  padding: 20px 0;
-}
 
-.card h2 {
-  margin: 0;
-  font-size: 30px;
-}
 
-.formulario {
-  display: flex;
-  height: 90%;
-  width: 80%;
-  justify-content: space-around;
-  flex-direction: column;
-}
-
-.formulario span {
-  font-size: 15px;
-  font-weight: 800;
-}
-
-.formulario input {
-  border: 2px solid #FF1801;
-  text-align: center;
-  border-radius: 10px;
-  margin: 0;
-}
-
-.formulario select {
-  border: 2px solid #FF1801;
-  background-color: white;
-  color: gray;
-  height: 36px;
-  text-align: center;
-  border-radius: 10px;
-  margin: 0;
-}
-
-.campo {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  padding: 5px 0;
-}
-
-.botao {
-  cursor: pointer;
-  font-family: "Barlow", sans-serif;
-  border: 0;
-  border-radius: 5px;
-  font-weight: 600;
-  font-size: 18px;
-  color: #fff;
-  background-color: #ED145B;
-  width: 120px;
-  height: 30px;
-  align-self: center;
-  margin-top: 20px;
-}
-
-.loading-div {
-  width: 50px;
-  display: none;
-}
-
-.loading-div img {
-  height: 50px;
-  width: 50px;
-}
-
-#div_erros_login {
-  display: none
-}
-
-/* FORMULARIO */
-
-.alerta_erro{
-  display: flex;
-  justify-content: flex-end;
-}
-
-.card_erro {
-  display: none;
-  background-color: #fff;
-  color: #15151e;
-  width: 230px;
-  position: fixed;
-  border-radius: 4px;
-  border: #ED145B 3px solid;
-  padding: 10px;
-  margin-right: 10%;
-}
-
-.card_erro #mensagem_erro{
-  font-weight: 500;
-  font-size: 20px;
-}
-
-.formulario .tipo_campo {
-  font-size: 20px;
-  font-weight: 600 !important;
-}
-
-.formulario {
-  display: flex;
-  flex-direction: column;
-}
-
-input {
-  margin-bottom: 10px;
-  border: 2px solid #FF1801;
-  padding: 10px;
-  text-align: center;
-  border-radius: 10px;
-}
-
-.btn {
-  font-family: "Barlow", sans-serif;
-  border: 0;
-  border-radius: 5px;
-  font-weight: 600;
-  font-size: 18px;
-  padding: 10px 15px;
-  color: white;
-  background-color: #ED145B;
-  width: 120px;
-  align-self: center;
-  margin-top: 5px;
-}
-
-.loading-div {
-  width: 50px;
-  margin: auto;
-  display: none;
-}
-
-.loading-div img {
-  height: 50px;
-  width: 50px;
-}
 
 /* SIMULADOR */
 
 .simulador {
   color: white;
+  background-color: #791717;
 }
 
 .simulador .container {
@@ -392,9 +263,6 @@ input {
   align-items: center;
 }
 
-a{
-  color: #FF1801;
-}
 .highlight {
     background-color: yellow; /* Cor de destaque */
     color: black; /* Cor do texto */
