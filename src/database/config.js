@@ -37,6 +37,3 @@ module.exports = {
     executar
 };
 
-function Correr(){
-    
-}

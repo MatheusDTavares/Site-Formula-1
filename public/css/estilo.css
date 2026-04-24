@@ -406,7 +406,7 @@ a{
   margin: 80px auto;
   display: flex;
   flex-direction: column;
-  padding: 0 40px;
+  padding: 0 150px;
 }
 
 .secao p{
@@ -451,18 +451,22 @@ a{
 }
 
 .text h4 {
-  color: #FF1801;
-  font-size: 24px;
+  color: rgb(189, 187, 187);
+  font-size: 28px;
   margin-bottom: 10px;
 }
 
 .text p {
   font-size: 16px;
 }
+.text a{
+  font-size: 32px;
+  font-weight: bold;
+}
 
 .f1 {
   color: white;
-  padding: 80px 80px;
+  padding: 80px 150px;
   display: flex;
   
   
@@ -484,12 +488,16 @@ a{
   font-size: 28px;
 }
 
+
 .f1 p {
   font-size: 18px;
   line-height: 1.6;
   max-width: 800px;
 }
 
+h4{
+  color:#791717
+}
 
 
 
